@@ -1,0 +1,32 @@
+Założenia projektowe 
+1. Cel projektu 
+Celem projektu jest stworzenie autonomicznego pojazdu o niewielkich rozmiarach, który 
+porusza się samodzielnie, omija przeszkody i potrafi eksplorować otoczenie przy użyciu 
+czujnika LiDAR. 
+2. Specyfikacja techniczna 
+• Układ kierowniczy: przednia oś skrętna sterowana przez serwonapęd 
+• Zasilanie: Akumulatory Li-Ion 
+• Napęd: dwa silniki elektryczne prądu stałego napędzające dwa tylnie koła, 
+sterownik dla silników 
+• Kontroler główny: Mikrokontroler (np. Raspberry Pi) 
+• Czujniki: 
+o LiDAR do skanowania otoczenia 
+o Opcjonalnie: kamera do analizy obrazu, Enkodery do kontroli ruchu 
+3. Funkcjonalności 
+• Autonomiczna nawigacja: Omijanie przeszkód przy użyciu LiDAR-a 
+• Mapa otoczenia: Tworzenie prostej mapy i unikanie wcześniej wykrytych 
+przeszkód 
+• Łączność: komunikacja przez Wi-Fi/Bluetooth do monitorowania lub sterowania 
+4. Algorytmy i oprogramowanie 
+• Przetwarzanie danych z LiDAR-a: Algorytmy filtrujące i wykrywające przeszkody 
+• Interfejs użytkownika: Opcjonalna aplikacja do monitorowania (np. na smartfonie 
+lub komputerze 
+5. Materiały i konstrukcja 
+• Obudowa: Druk 3D lub/oraz lekkie tworzywa sztuczne, opcjonalnie gotowe 
+podwozia dostępne w Internecie 
+• Montaż elektroniki: Modułowy, umożliwiający łatwą wymianę komponentów 
+6. Internet Rzeczy (IoT) i jego implementacja 
+• Sterowanie pojazdem: Możliwość zmiany trybu pracy i kierunku ruchu przez Wi
+Fi/Bluetooth. 
+• Zapisywanie danych na temat danego przejazdu tj. czas przejazdu, użytkownik, 
+zużycie baterii
