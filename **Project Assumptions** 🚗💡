@@ -1,0 +1,29 @@
+Design Assumptions  
+1. Project Objective  
+The goal of the project is to create a small autonomous vehicle that can move independently, avoid obstacles, and explore its surroundings using a LiDAR sensor.  
+
+2. Technical Specifications  
+• Steering system: Front axle with steering controlled by a servo motor  
+• Power supply: Li-Ion batteries  
+• Drive: Two DC electric motors powering the rear wheels, motor controller  
+• Main controller: Microcontroller (e.g., Raspberry Pi)  
+• Sensors:  
+  o LiDAR for environment scanning  
+  o Optional: Camera for image analysis, Encoders for motion control  
+
+3. Features  
+• Autonomous navigation: Obstacle avoidance using LiDAR  
+• Environment mapping: Creation of a simple map and avoidance of previously detected obstacles  
+• Connectivity: Communication via Wi-Fi/Bluetooth for monitoring or control  
+
+4. Algorithms and Software  
+• LiDAR data processing: Algorithms for filtering and obstacle detection  
+• User interface: Optional application for monitoring (e.g., on a smartphone or computer)  
+
+5. Materials and Construction  
+• Enclosure: 3D printing or/or lightweight plastics, optionally pre-made chassis available online  
+• Electronics assembly: Modular, allowing easy replacement of components  
+
+6. Internet of Things (IoT) and its Implementation  
+• Vehicle control: Ability to change operation mode and direction of movement via Wi-Fi/Bluetooth  
+• Data recording: Recording of data about the trip, such as travel time, user, and battery usage
