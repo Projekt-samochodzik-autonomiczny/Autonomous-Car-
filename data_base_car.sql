@@ -18,7 +18,6 @@ CREATE TABLE `przejazd` (
   `czas` timestamp,
   `pojazd_id` integer NOT NULL,
   `uzytkownik_id` integer NOT NULL,
-  `zuzycie_baterii` float
 );
 
 ALTER TABLE `przejazd` ADD FOREIGN KEY (`uzytkownik_id`) REFERENCES `uzytkownik` (`id`);
